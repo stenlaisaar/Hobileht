@@ -1,0 +1,51 @@
+/* Navigatsioon */
+
+.navigatsioon {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    background-color: white;
+    border-color: black;
+    text-align: center;
+    vertical-align: baseline;
+    word-spacing: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0441FA;
+}
+
+li {
+    display: inline;
+}
+
+/* Header */
+
+/* Hero */
+
+.hero {
+    block-size: auto;
+    text-align: center;
+    background-image: url(../assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1250px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    padding-top: 594px;
+    color: white;
+}
+
