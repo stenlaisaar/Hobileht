@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/3f9ff37ab4.js" crossorigin="anonymous"></script>
     <title>Reisimine</title>
 </head>
 <header>
@@ -26,16 +27,86 @@
     </div>
 </header>
 <body>
+    <!--Sissejuhatus-->
     <div id="sissejuhatus">
-        <h3>Miks ma reisin</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div id="sissejuhatus-algus">
+            <h3>Miks ma reisin</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="container-sissejuhatus">
+            <div>
+                <i class="fa-regular fa-compass" style="color: #155dfc; font-size: 32px;"></i>
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-heart" style="color: #155dfc; font-size: 32px;"></i>
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-camera" style="color: #155dfc; font-size: 32px;"></i>
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
     </div>
-    <div>
-        <h3 id="reisid">Kohad kus olen käinud</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <!--Soovitud reisid-->
+    <div id="soovitud-reisid">
+        <div id="sissejuhatus-soovitud">
+            <h3>Kuhu soovin minna</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="container-soovitud">
+            <div class="soovitud-gallerii">
+                <img src="assets/jaapan.jpg" alt="jaapan">
+                <div class="soovitud-kirjeldus">Jaapan</div>
+            </div>
+            <div class="soovitud-gallerii">
+                <img src="assets/madagaskar.jpg" alt="madagaskar">
+                <div class="soovitud-kirjeldus">Madagaskar</div>
+            </div>
+            <div class="soovitud-gallerii">
+                <img src="assets/peruu.jpg" alt="peruu">
+                <div class="soovitud-kirjeldus">Peruu</div>
+            </div>
+        </div>
+    </div>
+    <!--Käidud reisid-->
+    <div id="reisid">
+        <div id="reisid-sissejuhatus">
+            <h3>Kohad kus olen käinud</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="container-reisid">
+            <div class="reisid-gallerii">
+                <img src="assets/veneetsia.jpg" alt="veneetsia">
+                <div class="reisid-kirjeldus">Veneetsia<br>2022 juuli</div>
+            </div>
+            <div class="reisid-gallerii">
+                <img src="assets/egiptus.jpg" alt="egiptus">
+                <div class="reisid-kirjeldus">Egiptus<br>2022 detsember</div>
+            </div>
+            <div class="reisid-gallerii">
+                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
     </div>
 </body>
+<!--Footer-->
 <footer>
-
+    <div class="container-footer">
+        <div id="lingid">
+            <h3>Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div id="kontakt">
+            <h3>Lorem.</h3>
+        </div>
+    </div>
+    <div id="copyright">
+        <p>&copy; 2025</p>
+    </div>
 </footer>
 </html>
