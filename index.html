@@ -13,15 +13,16 @@
             <nav>
                 <ul>
                     <li><a href="#sissejuhatus">Sissejuhatus</a></li>
-                    <li><a href="#reisid">Reisid</a></li>
+                    <li><a href="#soovitud-reisid">Reisid</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
         <div class="hero">
+            <div class="hero-img"></div>
             <div class="hero-text">
                 <h1>Reisimine</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Liituge minuga, kui uurin maailma kõige hingematvamaid sihtkohti.</p>
             </div>
         </div>
     </div>
@@ -31,23 +32,26 @@
     <div id="sissejuhatus">
         <div id="sissejuhatus-algus">
             <h3>Miks ma reisin</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Iga koht õpetab meile midagi uut maailma ja meie enda kohta</p>
         </div>
         <div class="container-sissejuhatus">
             <div>
                 <i class="fa-regular fa-compass" style="color: #155dfc; font-size: 32px;"></i>
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Uute kultuuride avastamine</h3>
+                <p>Reisin, et avastada kultuuri, kogedes teiste inimeste tegelikku eluolu ja mõtteviise. See võimaldab mul süvendada oma ajaloo,
+                    kunsti ja toidu mõistmist, mis rikastab mind emotsionaalselt ja annab uue, värske perspektiivi omaenese kultuurile ja juurtele.</p>
             </div>
             <div>
                 <i class="fa-regular fa-heart" style="color: #155dfc; font-size: 32px;"></i>
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Mälestuste loomine</h3>
+                <p>Reisin sellepärast, et elu poleks lihtsalt päevade loetelu, vaid suur ja äge lugude kogu. Lõppkokkuvõttes
+                   on kogemused ainsad asjad, mida keegi minult kunagi ära võtta ei saa. </p>
             </div>
             <div>
                 <i class="fa-regular fa-camera" style="color: #155dfc; font-size: 32px;"></i>
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Jäädvustada ilu</h3>
+                <p>Ma reisin, et püüda kaadrisse ajalugu ja ilu, sest ma tahan anda monumentidele ja kultuurile surematuse. Millest saab mu isiklik
+                    visuaalne päevik – mälestus, mis ei kulu kunagi, vaid jääb jagamiseks ja imetlemiseks!</p>
             </div>
         </div>
     </div>
@@ -55,20 +59,89 @@
     <div id="soovitud-reisid">
         <div id="sissejuhatus-soovitud">
             <h3>Kuhu soovin minna</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Reisida on vaja, et kogeda kontraste ja rikkust, mida meie planeet pakub</p>
         </div>
         <div class="container-soovitud">
-            <div class="soovitud-gallerii">
-                <img src="assets/jaapan.jpg" alt="jaapan">
-                <div class="soovitud-kirjeldus">Jaapan</div>
+            <!-- Jaapan -->
+            <button class="myBtn_multi">
+                <div class="soovitud-gallerii">
+                    <img src="assets/jaapan.jpg" alt="jaapan">
+                    <div class="soovitud-kirjeldus">Jaapan</div>
+                </div>
+            </button>
+            <div class="modal modal_multi">
+                <div class="modal-sisu">
+                    <div class="modal-header">
+                        <span class="close close_multi">&times;</span>
+                        <h3>Jaapan</h3>
+                        <p>Aasia</p>
+                    </div>
+                    <div class="modal-body">
+                        <p>Jaapan on lummav sihtkoht, kus ülimoodne tehnoloogia kohtub sügavalt juurdunud traditsioonidega.
+                            Reisimine pakub haruldast kontrasti: ühest küljest Tokyo neoonvalgustatud energiat ja Fuji mäe ikoonilist suursugusust, teisalt Kyoto iidseid templeid, zen-aedu ja viisakust.
+                            Jaapani kogemus on erakordselt puhas, turvaline ja organiseeritud, lisaks pakub maailmakuulus köök (sushi, ramen) unustamatut gastronoomilist naudingut.
+                            See on riik, mis pakub kultuuri, ilu ja seiklust igale külastajale.
+                        </p>
+                        <div id="modal-img">
+                            <img src="assets/jaapan2.jpg" alt="jaapan2">
+                            <img src="assets/jaapan3.jpg" alt="jaapan3">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="soovitud-gallerii">
-                <img src="assets/madagaskar.jpg" alt="madagaskar">
-                <div class="soovitud-kirjeldus">Madagaskar</div>
+            <!-- Madagaskar -->
+            <button class="myBtn_multi">
+                <div class="soovitud-gallerii">
+                    <img src="assets/madagaskar.jpg" alt="madagaskar">
+                    <div class="soovitud-kirjeldus">Madagaskar</div>
+                </div>
+            </button>
+            <div class="modal modal_multi">
+                <div class="modal-sisu">
+                    <div class="modal-header">
+                        <span class="close close_multi">&times;</span>
+                        <h3>Madagaskar</h3>
+                        <p>Aafrika</p>
+                    </div>
+                    <div class="modal-body">
+                        <p>Madagaskar on kordumatu reisisihtkoht, mida kutsutakse ka "kaheksandaks kontinendiks", 
+                            kuna seal on ainulaadne segu endogeensest elusloodusest ja kaunitest troopilistest maastikest.
+                            Riigi peamine tõmbenumber on leemurid ja ahvileivapuud (baobab'id), mida ei leidu kusagil mujal maailmas. 
+                            Lisaks pakub saar avastamisrõõmu kaltsukivist Tsingy maastike ja rikkalike rannikualade näol.
+                            Madagaskar on tõeline looduslabor ja seiklus, mis pakub sügavat ning kordumatut kontakti loodusega.
+                        </p>
+                        <img src="assets/madagaskar2.jpg" alt="madagaskar2">
+                        <img src="assets/madagaskar3.jpg" alt="madagaskar3">
+                    </div>
+                </div>
             </div>
-            <div class="soovitud-gallerii">
-                <img src="assets/peruu.jpg" alt="peruu">
-                <div class="soovitud-kirjeldus">Peruu</div>
+            <!-- Peruu -->
+            <button class="myBtn_multi">
+                <div class="soovitud-gallerii">
+                    <img src="assets/peruu.jpg" alt="peruu">
+                    <div class="soovitud-kirjeldus">Peruu</div>
+                </div>
+            </button>
+            <div class="modal modal_multi">
+                <div class="modal-sisu">
+                    <div class="modal-header">
+                        <span class="close close_multi">&times;</span>
+                        <h3>Peruu</h3>
+                        <p>Lõuna-Ameerika</p>
+                    </div>
+                    <div class="modal-body">
+                        <p>Peruu on erakordne reisisihtkoht, mis pakub täiuslikku segu rikkalikust ajaloost, hingematvast loodusest ja maailmatasemel gastronoomiast.
+                            Riigi peamiseks tõmbenumbriks on kahtlemata Machu Picchu, kuid Peruu pakub palju enamat:
+                            siin kohtuvad majesteetlikud Andide mäeahelikud (koos Vikerkaaremäega), lopsakas Amazonase vihmamets ja Vaikse ookeani omapärane rannik.
+                            Sügavalt juurdunud inkade ja pre-inka tsivilisatsioonide pärand on tunda igal sammul, eriti ajaloolises Cusco linnas. Lisaks pakub Peruu köök, 
+                            oma ceviche ja pisco sour'iga, unustamatut naudingut igale gurmaanile. Lühidalt – Peruu on seiklus, ajalugu ja kultuur, mis ootab avastamist.
+                        </p>
+                        <div id="modal-img">
+                            <img src="assets/peruu2.jpg" alt="peruu2">
+                            <img src="assets/peruu3.jpg" alt="peruu3">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -76,20 +149,81 @@
     <div id="reisid">
         <div id="reisid-sissejuhatus">
             <h3>Kohad kus olen käinud</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Olen reisinud, sest need paigad pakkusid vastupandamatut kutset, mis ühendas kultuuri, ajaloo ja looduse imed</p>
         </div>
         <div class="container-reisid">
-            <div class="reisid-gallerii">
-                <img src="assets/veneetsia.jpg" alt="veneetsia">
-                <div class="reisid-kirjeldus">Veneetsia<br>2022 juuli</div>
+            <!-- Veneetsia -->
+            <button class="myBtn_multi">
+                <div class="reisid-gallerii">
+                    <img src="assets/veneetsia.jpg" alt="veneetsia">
+                    <div class="reisid-kirjeldus">Veneetsia<br>2022 juuli</div>
+                </div>
+            </button>
+            <div class="modal modal_multi">
+                <div class="modal-sisu">
+                    <div class="modal-header">
+                        <span class="close close_multi">&times;</span>
+                        <h3>Veneetsia</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Veneetsia on ainulaadne sihtkoht, mis eristub oma kanalite võrgustiku ja ajaloolise romantika poolest. 
+                            Linnasüdames asub ikooniline Püha Markuse väljak, mida kaunistavad Bütsantsi stiilis basiilika ja Doodžide palee. 
+                            Kuulus Suur Kanal pakub gondlisõidu kogemust. 
+                            Veneetsia pakub haruldast atmosfääri, kus veeteed asendavad tänavaid, muutes iga jalutuskäigu või sõidu kordumatuks kultuuri- ja ajalooseikluseks.
+                        </p>
+                        <img src="assets/veneetsia2.jpeg" alt="veneetsia2">
+                        <img src="assets/veneetsia3.jpeg" alt="veneetsia3">
+                    </div>
+                </div>
             </div>
-            <div class="reisid-gallerii">
-                <img src="assets/egiptus.jpg" alt="egiptus">
-                <div class="reisid-kirjeldus">Egiptus<br>2022 detsember</div>
+            <!--Egiptus -->
+                <button class="myBtn_multi">
+                <div class="reisid-gallerii">
+                    <img src="assets/egiptus.jpg" alt="egiptus">
+                    <div class="reisid-kirjeldus">Egiptus<br>2022 detsember</div>
+                </div>
+            </button>
+            <div class="modal modal_multi">
+                <div class="modal-sisu">
+                    <div class="modal-header">
+                        <span class="close close_multi">&times;</span>
+                        <h3>Egiptus</h3>
+                        <p>Aafrika</p>
+                    </div>
+                    <div class="modal-body">
+                        <p>Egiptus on suurepärane sihtkoht, mis ühendab iidse tsivilisatsiooni pärandi ja troopilise puhkuse võlud. Ajaloo osas on peatähelepanu Giza püramiididel ja Luxori templite majesteetlikkusel. 
+                            Kaasaegse puhkuse veetmiseks pakub aga Punane meri (Hurghada, Sharm el Sheikh) maailmatasemel sukeldumisvõimalusi ja fantastilisi korallriffe. 
+                            Egiptus pakub haruldast kombinatsiooni – ajaloolist avastamist ja päikesepaistelist rannalõõgastust ühes reisikogemuses.
+                        </p>
+                        <img src="assets/egiptus2.jpg" alt="egiptus2">
+                        <img src="assets/egiptus3.jpg" alt="egiptus3">
+                    </div>
+                </div>
             </div>
-            <div class="reisid-gallerii">
-                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <!-- Horvaatia -->
+            <button class="myBtn_multi">
+                <div class="reisid-gallerii">
+                    <img src="assets/horvaatia.jpg" alt="horvaatia">
+                    <div class="reisid-kirjeldus">Horvaatia<br>2021 juuni</div>
+                </div>
+            </button>
+            <div class="modal modal_multi">
+                <div class="modal-sisu">
+                    <div class="modal-header">
+                        <span class="close close_multi">&times;</span>
+                        <h3>Horvaatia</h3>
+                        <p>Euroopa</p>
+                    </div>
+                    <div class="modal-body">
+                        <p>Horvaatia on suurepärane sihtkoht, mis ühendab ajaloolise arhitektuuri ja Vahemere looduse võlud. 
+                            Peamised tõmbenumbrid on keskaegsed UNESCO linnad nagu Dubrovnik ja Split. 
+                            Looduse osas paistab silma Plitvice järvede rahvuspark oma lummavate koskede ja Aadria mere kristallselge saarestik, mis on ideaalne puhkuseks. 
+                            Horvaatia pakub seega harmoonilist kombinatsiooni kultuurist, ajaloost ja luksuslikust rannapuhkusest.
+                        </p>
+                        <img src="assets/horvaatia2.jpeg" alt="horvaatia2">
+                        <img src="assets/horvaatia3.jpeg" alt="horvaatia3">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -98,15 +232,22 @@
 <footer>
     <div class="container-footer">
         <div id="lingid">
-            <h3>Lorem, ipsum.</h3>
+            <h3>quick links</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div id="kontakt">
-            <h3>Lorem.</h3>
+            <h3>Kontakt</h3>
+            <p>
+                <a href="https://www.instagram.com/sten_laisaar?igsh=cDN2NHNiem5uajR4" target="_blank"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a>
+                <a href="https://www.facebook.com/share/1AUNcYL4p2/" target="_blank"><i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i></a>
+                <a href="https://open.spotify.com/user/icococookie?si=5dc27e8a3f234e04" target="_blank"><i class="fa-brands fa-spotify fa-lg" style="color: #ffffff;"></i></a>
+            </p>
         </div>
     </div>
     <div id="copyright">
         <p>&copy; 2025</p>
     </div>
 </footer>
+
+<script src="index.js"></script>
 </html>
