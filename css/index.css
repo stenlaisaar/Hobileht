@@ -34,13 +34,7 @@ li {
 /* Hero */
 
 .hero {
-    block-size: auto;
     text-align: center;
-    background-image: url(../assets/hero.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 1250px;
 }
 
 .hero-container {
@@ -53,27 +47,26 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 1750px;
+    height: 1500px;
     filter: blur(8px);
 }
 
 .hero-text {
-    padding-top: 594px;
-    color: white;
+    padding-top: 100px;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    padd
 }
 
 /* Sissejuhatus */
 
 #sissejuhatus{
     background-color: #F9FAFB;
-    padding-top: 500px;
+    padding-top: px;
 }
 
 #sissejuhatus h3{
